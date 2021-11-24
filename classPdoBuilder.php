@@ -94,13 +94,13 @@
                 <article id="classTable">
                     <label>Class</label>
                     <div id="classCode">
-    <?php include_once 'etc/builders/buildClass.php'; ?>
+    <?php include_once 'builders/buildClass.php'; ?>
                     </div>
                 </article>
                 <article id="pdoTable">
                     <label>PDO</label>
                     <div id="pdoCode">
-    <?php include_once 'etc/builders/buildPDO.php'; ?>
+    <?php include_once 'builders/buildPDO.php'; ?>
                     </div>
                 </article>
             <?php endif; ?>
